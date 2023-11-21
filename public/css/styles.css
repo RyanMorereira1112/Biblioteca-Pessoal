@@ -8,7 +8,7 @@ body, h1, h2, h3, ul, li, a {
 
 /* Estilização do header */
 header {
-    background-color: #333;
+    background-color: #556b2f;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -38,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: rgb(83, 189, 106);
 }
 
 /* Estilo do conteúdo principal */
@@ -108,10 +108,15 @@ main {
 }
 
 .icon-btn {
-    background: none;
+    background-color: #556b2f;
+    padding: 0.8rem 1.3rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     border: none;
     cursor: pointer;
-    color: #007BFF; /* Cor do ícone */
+    color: #FFF; /* Cor do ícone */
     font-size: 1.2rem; /* Tamanho do ícone */
     transition: color 0.3s;
 }
